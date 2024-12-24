@@ -1,4 +1,4 @@
-# **Dynamic Optimization of Portfolio Allocation Using Deep Reinforcement Learning 论文代码**(Paper Code)
+# Paper Code: **Dynamic Optimization of Portfolio Allocation Using Deep Reinforcement Learning**
 
 ## 1. 关于（About）
 
@@ -6,11 +6,11 @@
 
 训练奖励（Training Rewards）：
 
-![](.\img\training_rewards.svg)
+![](.\img\training_rewards.png)
 
 实验结果（Experimental Results）：
 
-![](.\img\OPT_comparison.svg)
+![](.\img\OPT_compare.png)
 
 
 
