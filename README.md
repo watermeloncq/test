@@ -21,10 +21,8 @@ This trading environment is developed based on wassname's rl-portfolio-managemen
 
 
 
-## 2. 必要的python包（Required Python Packages）
-
-此代码只适用于在python=3.7版本下运行，请运行如下命令安装必要的python packages：
-（This code is compatible with Python 3.7 only. Execute the following commands to install the required Python packages:）
+## 2. Required Python Packages
+This code is compatible with Python 3.7 only. Execute the following commands to install the required Python packages:
 
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install stable-baselines3[extra]==1.3.0
@@ -51,6 +49,7 @@ After environment configuration and package installation, clone or download the 
 
 ### （2）注意事项（Important Notes）
 
-在./data/0. load chinese data 1d multindex.ipynb 文件中，test_split=0.08 这行代码用于划分训练集和测试集。注意：测试集的区间长度不能小于训练时随机采样的区间长度，否则会报错。例如，如果每个 episode 随机采样 128 个交易日的数据进行训练，那么测试集的区间长度就不能少于 128 天。
+
 
 In ./data/0. load chinese data 1d multindex.ipynb, the parameter test_split=0.08 defines the train-test split ratio. Critical Note: To prevent runtime errors, ensure that the test period length exceeds the random sampling interval used in training. For instance, when each training episode samples 128 trading days, the test period must contain a minimum of 128 days of data.
+(在./data/0. load chinese data 1d multindex.ipynb 文件中，test_split=0.08 这行代码用于划分训练集和测试集。注意：测试集的区间长度不能小于训练时随机采样的区间长度，否则会报错。例如，如果每个 episode 随机采样 128 个交易日的数据进行训练，那么测试集的区间长度就不能少于 128 天。)
