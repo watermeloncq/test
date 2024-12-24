@@ -25,13 +25,21 @@ This trading environment is developed based on wassname's rl-portfolio-managemen
 This code is compatible with Python 3.7 only. Execute the following commands to install the required Python packages:
 
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+
 pip install stable-baselines3[extra]==1.3.0
+
 pip install notebook
+
 pip install einops
+
 pip install tables
+
 pip install seaborn
+
 pip install tqdm
+
 pip install openpyxl
+
 
 ## 3. 代码运行步骤和注意事项（Code Execution Steps and Important Notes）
 
