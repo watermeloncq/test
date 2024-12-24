@@ -6,11 +6,12 @@
 
 训练奖励（Training Rewards）：
 
-![](.\img\training_rewards.png)
+![](.\img\training_rewards.png)![training_rewards](https://github.com/user-attachments/assets/303be4b0-4382-4ae0-b4e1-84a5ea33c3f8)
+
 
 实验结果（Experimental Results）：
 
-![](.\img\OPT_compare.png)
+![OPT_comparison](https://github.com/user-attachments/assets/1531a568-f125-4ecd-ac1c-a7b098aa9b22)
 
 
 
